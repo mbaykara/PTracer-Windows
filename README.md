@@ -22,7 +22,7 @@ Supported Compilers
 * GCC/G++
 * Clang/Clang++
 * Go compiler
-* MSBuild
+* MSBuild(as build system)
 ```
 Does not support
 ```

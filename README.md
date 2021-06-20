@@ -17,6 +17,17 @@ Options
 Usage:
 PTrace [application]
 ```
+Supported Compilers
+```
+* GCC/G++
+* Clang/Clang++
+* Go compiler
+* MSBuild
+```
+Does not support
+```
+* Convention based build system Gradle and Maven
+```
 For example we can observe the compilation process simple c++ application 
 main.cpp
 ```
@@ -72,8 +83,6 @@ PTracer.exe  cmake -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_C
 ```
 #### Notes
 To use extracted batch script, remove the first command from `compile.bat`
-#### Known Issues
-* Currently, PTracer does not support maven and gradle
 ```
 #### Compile from source code
 * Visual Studio 19

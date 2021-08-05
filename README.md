@@ -26,7 +26,7 @@ Supported Compilers
 ```
 Does not support
 ```
-* Convention based build system Gradle and Maven
+* Convention based build systems Gradle and Maven(currently)
 ```
 For example we can observe the compilation process simple c++ application 
 main.cpp
